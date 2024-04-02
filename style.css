@@ -1,0 +1,74 @@
+:root {
+  --yellow-color: hsl(47, 88%, 63%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--yellow-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 15rem;
+  /* margin: 0 auto; */
+  padding: 1.5em 1em 1.5em 1.5em;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px black;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 95%;
+  margin-bottom: 15px;
+}
+
+.learning {
+  background-color: var(--yellow-color);
+  width: 4rem;
+  padding: 0.3em 0.95em;
+  border-radius: 10%;
+  margin-bottom: 5%;
+  font-size: 1rem;
+}
+
+.date {
+  margin-bottom: 5%;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.title:active {
+  color: var(--yellow-color);
+}
+
+.desc {
+  margin-bottom: 1.3rem;
+  color: grey;
+}
+
+.footer {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.author-pic {
+  width: 2rem;
+}
