@@ -17,7 +17,7 @@ body {
   align-items: center;
   font-family: "Figtree", sans-serif;
   overflow: hidden;
-  -webkit-overflow-scrolling: none;
+  /* -webkit-overflow-scrolling: none; */
 }
 
 .container {
