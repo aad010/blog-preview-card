@@ -17,13 +17,11 @@ body {
   align-items: center;
   font-family: "Figtree", sans-serif;
   overflow: hidden;
-  /* -webkit-overflow-scrolling: none; */
 }
 
 .container {
   background-color: white;
   width: 15rem;
-  /* margin: 0 auto; */
   padding: 1.5em 1em 1.5em 1.5em;
   border-radius: 15px;
   box-shadow: 10px 10px 0px black;
